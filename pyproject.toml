@@ -1,0 +1,22 @@
+[project]
+name = "llm-nvcc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Michael Borges",email = "michaleborges21@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipython (>=9.6.0,<10.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.4.7,<8.0.0)",
+    "tensorflow (>=2.20.0,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "llm_nvcc", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
