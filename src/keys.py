@@ -16,5 +16,5 @@ def tokens()->str:
     
     print(f">>>TOKEN ACESSADO COM SUCESSO<<")
     
-    T = token_string[0:8]
+    T = token_string
     return T
